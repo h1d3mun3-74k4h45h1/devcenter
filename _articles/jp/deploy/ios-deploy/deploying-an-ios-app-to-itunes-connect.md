@@ -56,7 +56,7 @@ iTunes Connectへアプリのデプロイを行うには、２つのステップ
 3. `Select method for export`ステップのインプットを`app-store`に設定します。このステップは$BITRISE_IPA_PATH環境変数内のエクスポート済み.ipaファイルのパスを保存します。
 
    ![{{ page.title }}](/img/app-store-export.png)
-4. ワークフローに`Deploy to Bitrise.io`ステップを追加します。
+4. ワークフローに`Deploy to iTunes Connect`ステップを追加します。
 5. 必要なインプットを記入してください。
    * **アプリのApple IDもしくはBundle IDは必要なインプットです。**２つのうち１つを記入してください。
    * `Submit for Review`を`true`に設定する場合、ステップはあなたの提出物がiTunes Connect上で処理されるのを待ち、その後レビュー用のアプリの一定のバージョンを提出します。
